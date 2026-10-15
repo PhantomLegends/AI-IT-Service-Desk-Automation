@@ -1,0 +1,36 @@
+# Local configuration and secrets
+local.settings.json
+local.settings.json.*
+.env
+.env.*
+
+# Python virtual environments and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local backups
+*.bak
+
+# Generated files
+.debug/
+.workflow-designtime/
+bin/
+obj/
+*.log
+
+# Azurite storage data
+__azurite*
+azurite_db*
+
+# VS Code local settings
+.vscode/
+
+# Azurite generated storage files
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+__azurite_db*/
+AzuriteConfig/
