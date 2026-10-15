@@ -9,6 +9,7 @@ The solution accepts employee IT requests, uses a locally hosted AI model to cla
 The entire solution runs locally on Windows 11, without requiring an Azure subscription or paid cloud AI API.
 
 ## Architecture
+📊 **[View the System Architecture Diagram](docs/architecture.md)**
 
 ```text
 Employee IT Request (HTTP POST)
