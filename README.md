@@ -185,3 +185,25 @@ The manager review endpoint does not currently enforce manager authentication or
 ## Project Repository
 
 [GitHub — AI IT Service Desk Automation](https://github.com/PhantomLegends/AI-IT-Service-Desk-Automation)
+
+## Project Screenshots
+
+The following screenshots demonstrate the locally running IT Service Desk automation.
+
+### 1. Azure Logic Apps Workflow
+
+The Logic Apps workflow receives an HTTP request, invokes the Azure Function, and returns the result.
+
+![Logic Apps workflow configuration](docs/screenshots/logic-apps-workflow.png)
+
+### 2. AI Ticket Classification
+
+The locally hosted Qwen3 8B model helps classify an employee's VPN access request, assign a priority, and recommend manager approval.
+
+![AI ticket creation response](docs/screenshots/ai-ticket-creation.png)
+
+### 3. Manager Approval
+
+The `ReviewTicket` Azure Function processes an approval decision and updates the ticket's status in Azurite Table Storage.
+
+![Successful manager approval](docs/screenshots/manager-approval.png)
