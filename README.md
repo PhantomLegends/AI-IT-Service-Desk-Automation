@@ -117,6 +117,7 @@ Example request:
 Supported decisions are `Approved` and `Rejected`. Reviews update eligible pending tickets in Azurite Table Storage.
 
 ## Running Locally
+📖 **[Complete Local Setup Guide](docs/setup-guide.md)**
 
 ### Prerequisites
 
